@@ -21,7 +21,7 @@ pigeons = {}
   }
   end
   
-  if data[:color].includes?(pigeons)
+  data[:color].each 
 
 pp pigeons
 end
