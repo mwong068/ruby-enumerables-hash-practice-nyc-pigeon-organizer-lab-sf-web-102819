@@ -21,7 +21,7 @@ pigeons = {}
   }
   end
   
-  data[:]
+  if data[:color].includes?(pigeons)
 
 pp pigeons
 end
