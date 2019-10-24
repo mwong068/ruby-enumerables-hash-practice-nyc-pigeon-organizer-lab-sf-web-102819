@@ -7,7 +7,10 @@ pigeons = {}
   female_pigeons = (data[:gender][:female])
   
   male_pigeons.each do |males|
-    pigeons[males] = {}
+    pigeons[males] = {
+      :name => males,
+      :gender => 
+    }
   end
   female_pigeons.each do |females|
   pigeons[females] = {}
