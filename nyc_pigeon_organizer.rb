@@ -3,7 +3,10 @@ def nyc_pigeon_organizer(data)
   #breakdown the hashes into arrays
   
 pigeons = {}
-  data.each do category
+  male_pigeons = []
+  female_pigeons = []
+  
+  male_pigeons.push(data[])
 
 
 pigeons
