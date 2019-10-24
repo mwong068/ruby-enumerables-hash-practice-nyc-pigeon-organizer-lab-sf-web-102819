@@ -32,9 +32,21 @@ pigeons = {}
       i += 1
       end
     end
-    pp pigeons
     end
 
+  pigeon_homes = data[:lives]
+    pigeons.each do |pigeon_name, pigeon_info|
+    pigeon_homes.each do |which_place, whose_place|
+      i = 0
+      while i < whose_place.length
+        if whose_place[i] === pigeon_name
+         pigeon_info[:lives].push(which_place.to_s)
+        end
+      i += 1
+      end
+    end
+    pp pigeons
+    end
 
  pigeons
 end
