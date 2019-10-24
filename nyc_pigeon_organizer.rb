@@ -22,9 +22,17 @@ pigeons = {}
   end
   
   pigeon_colors = data[:color]
-    pigeons.each do |pigeon_name, pigeon_attributes|
+    pigeons.each do |pigeon_name, pigeon_info|
     pigeon_colors.each do |which_color, whose_color|
-  
+      i = 0
+      while i < whose_color.length
+        if whose_color[i] === pigeon_name
+         pigeon_info[:color] = which_color
+        end
+      i += 1
+      end
+    end
+    end
 
  pigeons
 end
