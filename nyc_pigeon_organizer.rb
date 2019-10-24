@@ -8,7 +8,7 @@ pigeons = {}
   
   male_pigeons.each do |males|
     pigeons[males] = {
-      :name => males,
+      :color => ,
       :gender => 
     }
   end
