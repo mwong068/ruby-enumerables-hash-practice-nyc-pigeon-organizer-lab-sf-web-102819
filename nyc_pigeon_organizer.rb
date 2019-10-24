@@ -9,12 +9,16 @@ pigeons = {}
   male_pigeons.each do |males|
     pigeons[males] = {
       :color => [],
-      :gender => [male],
-      
+      :gender => ["male"],
+      :lives => []
     }
   end
   female_pigeons.each do |females|
-  pigeons[females] = {}
+  pigeons[females] = {
+    :color => [],
+    :gender => ["female"],
+    :lives => []
+  }
   end
   
 
