@@ -21,7 +21,7 @@ pigeons = {}
   }
   end
   
-  pigeon_colors = data[:colors]
+  pigeon_colors = data[:color]
   pp pigeon_colors
   
 
