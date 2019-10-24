@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   #breakdown the hashes into arrays
   
 pigeons = {}
-  
+  data.each do 
 
 
 pigeons
