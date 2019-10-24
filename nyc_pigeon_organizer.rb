@@ -21,7 +21,8 @@ pigeons = {}
   }
   end
   
-  data[:color].each 
+  data[:color].each colors
+  
 
 pp pigeons
 end
