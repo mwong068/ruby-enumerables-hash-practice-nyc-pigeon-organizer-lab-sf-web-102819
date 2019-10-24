@@ -27,7 +27,7 @@ pigeons = {}
       i = 0
       while i < whose_color.length
         if whose_color[i] === pigeon_name
-         pigeon_info[:color] = #{which_color}
+         pigeon_info[:color].push(which_color)
         end
       i += 1
       end
