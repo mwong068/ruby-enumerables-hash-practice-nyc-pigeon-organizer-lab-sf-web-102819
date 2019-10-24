@@ -22,7 +22,7 @@ pigeons = {}
   end
   
   pigeon_colors = data[:color]
-  
+    pigeon_colors.each do |
   
 
  pigeons
