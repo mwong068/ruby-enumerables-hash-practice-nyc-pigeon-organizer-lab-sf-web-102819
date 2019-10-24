@@ -1,3 +1,6 @@
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  #iterate over each pigeon
+  #breakdown the hashes into arrays
+  
+  pp data
 end
