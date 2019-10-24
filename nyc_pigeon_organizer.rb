@@ -45,8 +45,7 @@ pigeons = {}
       i += 1
       end
     end
-    pp pigeons
     end
 
- pigeons
+ pp pigeons
 end
