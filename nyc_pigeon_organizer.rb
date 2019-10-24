@@ -6,10 +6,10 @@ pigeons = {}
   male_pigeons = (data[:gender][:male])
   female_pigeons = (data[:gender][:female])
   
-  male_pigeons.each do males 
+  male_pigeons.each do |males|
     pigeons[males] = {}
   end
-  female_pigeons.each do females
+  female_pigeons.each do |females|
   pigeons[females] = {}
   end
   
