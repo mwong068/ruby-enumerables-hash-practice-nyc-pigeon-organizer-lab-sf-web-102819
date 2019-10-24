@@ -21,6 +21,7 @@ pigeons = {}
   }
   end
   
+  data[:]
 
 pp pigeons
 end
