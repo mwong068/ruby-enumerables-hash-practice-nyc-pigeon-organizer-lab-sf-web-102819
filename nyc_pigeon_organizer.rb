@@ -6,7 +6,7 @@ pigeons = {}
   male_pigeons = []
   female_pigeons = []
   
-  male_pigeons.push(data[])
+  male_pigeons.push(data[:gender][:male])
 
 
 pigeons
