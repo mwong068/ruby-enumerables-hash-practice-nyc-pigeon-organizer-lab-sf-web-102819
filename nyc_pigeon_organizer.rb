@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  #iterate over each pigeon
+  #iterate over each category of pigeon
   #breakdown the hashes into arrays
   
 pigeons = {}
