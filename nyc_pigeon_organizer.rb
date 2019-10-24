@@ -7,7 +7,12 @@ pigeons = {}
   female_pigeons = (data[:gender][:female])
   
   male_pigeons.each do males 
-    pigeons[males] = "male
+    pigeons[males] = "male"
+  end
+  female_pigeons.each do females
+  pigeons[females] = "female"
+  end
+  
 
-pigeons
+pp pigeons
 end
